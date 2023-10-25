@@ -1,0 +1,16 @@
+body {
+    background-color: #6C5F5B;
+    margin: 0;
+}
+
+.header {
+    width: 100vw;
+    height: 8vh;
+    background: #ED7D31;
+    align-items: center;
+}
+
+.menuButtImg {
+    width: 8%;
+    margin: 5vw 3vh;
+}
