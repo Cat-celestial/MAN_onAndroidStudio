@@ -11,22 +11,32 @@
 <body>
     <div class="mainBox">
         <div class="header">
-            <img src="images/menubutton.png" class="menuButtImg">
+            <button class="menuButtImg"></button>
             <p class="navBarName">Математика 9 - 10 клас</p>
+        </div>
+        <div class="menu">
+            <div class="title">NAVIGATION</div>
+            <div class="list_menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About me</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </div>
 
-    <div class="menu">
-        <div class="title">NAVIGATION</div>
-        <div class="list_menu">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About me</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-    </div>
+
+    <script>
+        document.querySelector(".menuButtImg").onclick = function() {
+            if (document.querySelector(".menu").style.left == "-1vw") {
+                document.querySelector(".menu").style.left = "-30vw";
+            } else {
+                document.querySelector(".menu").style.left = "-1vw";
+            }
+        }
+    </script>
 </body>
 
 </html>

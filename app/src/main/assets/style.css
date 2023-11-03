@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+.mainBox {
+    position: relative;
+}
+
 .header {
     display: flex;
     vertical-align: middle;
@@ -10,12 +14,18 @@ body {
     height: 8vh;
     background: #ed7d31;
     align-items: center;
+    position: absolute;
 }
 
 .menuButtImg {
-    width: 4vw;
+    background-image: url("/app/src/main/assets/images/menubutton.png");
+    background-size: 100%;
+    width: 3vw;
+    height: 3vw;
     margin-right: 10vw;
     margin-left: 5vw;
+    background-color: #ed7d31;
+    border: none;
 }
 
 .navBarName {
@@ -24,17 +34,18 @@ body {
 }
 
 .menu {
-    height: 100vh;
+    height: 50vh;
     width: 10vw;
     padding: 20vh;
     position: fixed;
     background-color: rgb(142, 185, 185);
-    /* z-index: 100; */
-    left: -10vw;
+    z-index: 100;
+    left: -30vw;
     transition: 1s;
+    position: absolute;
 }
 
-.menuButtImg:active .menu {
+/* .menuButtImg:active .menu {
     left: -1vw;
     transition: 1s;
-}
+} */
