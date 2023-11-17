@@ -13,39 +13,77 @@ body {
     width: 100vw;
     height: 8vh;
     background: #ed7d31;
-    align-items: center;
-    position: absolute;
-}
-
-.menuButtImg {
-    background-image: url("/app/src/main/assets/images/menubutton.png");
-    background-size: 100%;
-    width: 3vw;
-    height: 3vw;
-    margin-right: 10vw;
-    margin-left: 5vw;
-    background-color: #ed7d31;
-    border: none;
+    /* align-items: center;
+    position: absolute; */
 }
 
 .navBarName {
     font-size: 1.3em;
     font-family: Impact, Charcoal, sans-serif;
+    margin-left: 17px;
 }
 
-.menu {
-    height: 50vh;
-    width: 10vw;
-    padding: 20vh;
-    position: fixed;
-    background-color: rgb(142, 185, 185);
-    z-index: 100;
-    left: -30vw;
-    transition: 1s;
-    position: absolute;
+.par1Box {
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
-/* .menuButtImg:active .menu {
-    left: -1vw;
-    transition: 1s;
-} */
+.subjectTitle {
+    text-align: center;
+    color: rgb(59, 235, 80);
+    font-size: 21px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    text-shadow: 0.3px 0.3px rgb(103, 223, 97);
+}
+
+.subDefinition {
+    color: white;
+    margin-top: 35px;
+    font-size: 15.5px;
+}
+
+.miniExapmles {
+    width: 180px;
+    border-radius: 7px;
+    border: 1.5px solid #efa574;
+}
+
+#rootImgExample {
+    display: block;
+    margin: auto;
+}
+
+.theoryBox {
+    margin-top: 30px;
+    background-color: #76a90057;
+    border: 1.5px solid #76a900;
+    border-radius: 4px;
+}
+
+.theoryNameBox {
+    color: white;
+    font-size: 15px;
+    background-color: #76a900;
+    width: fit-content;
+    border-bottom-right-radius: 3px;
+}
+
+.theoryLabel {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6.5px;
+    padding-bottom: 6.5px;
+    margin-top: 0;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.theory {
+    font-size: 13px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.markedTheoryText {
+    font-weight: 900;
+}

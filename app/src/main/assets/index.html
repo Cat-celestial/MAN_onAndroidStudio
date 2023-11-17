@@ -11,32 +11,30 @@
 <body>
     <div class="mainBox">
         <div class="header">
-            <button class="menuButtImg"></button>
+            <!-- <button class="menuButtImg"></button> -->
             <p class="navBarName">Математика 9 - 10 клас</p>
         </div>
-        <div class="menu">
-            <div class="title">NAVIGATION</div>
-            <div class="list_menu">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About me</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+        <div class="container">
+            <div class="par1Box">
+                <p class="subjectTitle">Властивості кореня n-го степеня</p>
+                <p class="subDefinition">Коренем n-го степеня з числа а називається таке число, n-й степінь якого
+                    дорівнює а, тобто:</p>
+                <img src="./images/photo_2023-11-17_00-45-56.png" class="miniExapmles" id="rootImgExample">
+
+                <div class="theoryBox">
+                    <div class="theoryNameBox">
+                        <p class="theoryLabel">Теорія</p>
+                    </div>
+
+                    <p class="theory">Знаходження кореня n-го степеня з числа а називають <b class="markedTheoryText">добуванням кореня n-го
+                        степеня</b>, число а називають відкореневим числом, а число n - показником кореня
+                    </p>
+                </div>
             </div>
         </div>
     </div>
 
-
-    <script>
-        document.querySelector(".menuButtImg").onclick = function() {
-            if (document.querySelector(".menu").style.left == "-1vw") {
-                document.querySelector(".menu").style.left = "-30vw";
-            } else {
-                document.querySelector(".menu").style.left = "-1vw";
-            }
-        }
-    </script>
+    <script type="text/javascript" src="app/src/main/assets/script.js"></script>
 </body>
 
 </html>
