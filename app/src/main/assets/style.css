@@ -1,12 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 body {
-    background-color: #6c5f5b;
+    background-color: #363636;
     margin: 0;
-}
-
-.mainBox {
-    position: relative;
 }
 
 .header {
@@ -15,14 +11,16 @@ body {
     width: 100vw;
     height: 8vh;
     background: #ed7d31;
-    /* align-items: center;
-    position: absolute; */
+    align-content: center;
+    /* margin-top: 0; */
 }
 
 .navBarName {
     font-size: 1.3em;
-    font-family: Impact, Charcoal, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin-left: 17px;
+    width: fit-content;
+    height: fit-content;
 }
 
 .par1Box {
@@ -38,10 +36,21 @@ body {
     text-shadow: 0.3px 0.3px rgb(103, 223, 97);
 }
 
-.subDefinition {
+.subDefinitions {
     color: white;
     margin-top: 35px;
     font-size: 15.5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nonDispUpBonusPar ~ .subDefinitions {
+    margin-bottom: 0;
+}
+
+.bonusInfo {
+    font-size: 12px;
+    margin-top: 6px;
+    color: rgb(224, 224, 224);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -87,11 +96,26 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     margin-left: 10px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
 }
 
 .markedTheoryText {
     font-weight: 900;
     color: rgb(235, 192, 180);
+}
+
+.forExampleLabel {
+    color: white;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    text-shadow: 0.3px 0.3px rgb(113, 236, 128);
+    opacity: .9;
+    font-weight: 600;
+}
+
+.subDefinitionsExample {
+    margin-top: 0;
+    font-size: 16px;
 }
